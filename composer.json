@@ -16,7 +16,7 @@
     "laravel/framework": "~5.4|^6.0",
     "venturecraft/revisionable": ">=1.0"
   },
-  "version": "1.0",
+  "version": "1.1",
   "autoload": {
     "classmap": [],
     "psr-4": {
