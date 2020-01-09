@@ -1,7 +1,7 @@
 Revisionable with Force Delete
 =====================
 
-This package is an improvement on another package - [Revisionable](https://github.com/VentureCraft/revisionable/pull/364/files). You must install it before installing this package.
+This package is an improvement on another package - [Revisionable](https://github.com/VentureCraft/revisionable). You must install it before installing this package.
 
 This package adds support for saving Force deleted models.
 
