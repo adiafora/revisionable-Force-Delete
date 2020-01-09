@@ -22,12 +22,5 @@
     "psr-4": {
       "Adiafora\\RevisionableForceDelete\\": "src"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Adiafora\\RevisionableForceDelete\\RevisionableForceDeleteServiceProvider"
-      ]
-    }
   }
 }
