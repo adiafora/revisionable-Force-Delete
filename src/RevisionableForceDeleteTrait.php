@@ -6,15 +6,10 @@ use \Venturecraft\Revisionable\Revisionable;
 
 trait RevisionableForceDeleteTrait
 {
-    public static function boot()
-    {
-        parent::boot();
-
-        if (!method_exists(get_called_class(), 'bootTraits')) {
-            static::bootRevisionableForceDeleteTrait();
-        }
-    }
-
+    /**
+     * Boot method
+     *
+     */
     public static function bootRevisionableForceDeleteTrait()
     {
         static::deleted(function ($model) {
